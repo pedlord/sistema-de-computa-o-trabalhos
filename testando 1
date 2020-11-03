@@ -1,0 +1,9 @@
+a=int(input('decimal:'))
+c=[]
+while a>1:
+    b=a%2
+    a=a//2
+    c.append(b)
+    print(a,b)
+c.reverse()
+print(a,c)
